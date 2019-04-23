@@ -1,0 +1,48 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+		{-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;}
+
+#w
+		{max-width: 900px;
+		min-width: 300px;
+		margin: 0 auto;
+		padding: 2px 3px;
+		display: block;}
+
+.crsl-items
+		{max-width: 900px;
+		height: 450px;
+		padding: 5px;
+		display: block;}
+
+.crsl-item
+		{height: 190px !important;
+		display: inline-block}
+
+.crsl-wrap
+		{max-width: 2670px !important;
+		min-width: 900px;}
+
+.slidernav
+		{text-align: center;
+		display: block;}
+
+.slidernav a
+		{font-family: "Droid Serif";
+		font-size: 85%;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin-top: 1%;
+		box-sizing: border-box;
+		display: inline-block;}
+
+.slidernav a:hover
+		{opacity: 0.7;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;}
+
+

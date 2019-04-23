@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* light blue grey: 7b92a2 */
+
+
+/* home page 
+.content-area p + h2 { margin-top: -10px; }
+
+#news .content-area { width: 900px; }
+.news-image img {  clip: rect(100%, 100%, 100%, 100%); position: absolute; }
+.news-story .news-title { text-transform: none !important; }
+
+section#news {width: 100%; height: auto;min-height: 840px;margin: 0px auto;padding-top: 4%;background: url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/news-bg.jpg) cover no-repeat !important;}
+
+.clear { height: 0; line-height: 1px; clear:both; }*/
+
+/* nav */
+
+nav { margin: 0; padding: 0; }
+.main-navigation {max-width: 1100px;min-height: 0;margin: 0 auto;clear: both; position: relative; }
+
+.nav-menu,
+.nav-menu ul,
+.nav-menu ul li,
+.nav-menu ul li a
+		{text-align: right; margin: 0px auto; padding: 1% 0; vertical-align: middle; -webkit-transition: all ease .3s; -o-transition: all ease .3s; -moz-transition: all ease .3s; -ms-transition: all ease .3s; transition: all ease .3s; display: block; z-index: 10000;}
+		
+		
+.nav-menu { padding: 0; }
+.nav-menu li { list-style: none; display: inline-block; position: relative; height: auto; padding: 0 !important; margin:0 !important;}
+.nav-menu li a { height: auto; font-size: 12px;letter-spacing: 1px;color: #7b92a2;padding: 18px 10px;margin: 0 !important;display: block;}
+.nav-menu li a:after { content:''; display: block; border-right: #eeeeee solid 1px; position: absolute; top: 8px; right: 0; height: 35px; width: 1px; z-index: -1; }
+.nav-menu li:last-child a:after { border: none; }
+.nav-menu li a:hover, .nav-menu li:hover > a {color: #fff !important; background-color:#7b92a2 !important; }
+
+.sub-menu li a { text-align: left !important; padding: 4% !important; }
+
+.nav-menu .sub-menu	{ width: auto; background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85); display: none; position: absolute;}
+.nav-menu li:hover>.sub-menu { width: 170px; height: auto; text-align: left; display: block; z-index: 1;}
+.nav-menu li .sub-menu li a { text-transform: none !important; letter-spacing: normal; padding: 10px !important; border-bottom: #d9ebf5 solid 1px !important; }
+.navbar { width: 100%; height: 51px; background-color: #FEFDF8; margin: 0 auto; box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, .24); position: fixed; z-index: 10;}
+
+/* end nav */
+
+/* header */
+.header-logo { width: auto !important; height: 100% !important; max-width: 123px; margin: 0px auto 0 10px; padding-top: 8px; box-sizing: border-box; vertical-align: top; display: inline-block; border: 0 solid red;}
+.header-logo a img { width: 100%; height: auto; }		
+
+
+/*.site-main { clear: both; }*/
+
+p {font-family: "Nexa Light", sans-serif;font-size: 14px !important;letter-spacing: 0;line-height: 160%; }
+
+/* lower level pages first section should have a little more padding at the top */
+/*section:first-of-type { padding-top: 100px !important; max-width: none; background: url(../images/beneteau-bg.jpg) no-repeat; background-size: cover; background-position: 0 100% !important; background-color: #E0E7EE; padding-top: 0; padding-bottom: 50px;  }*/
+/*section { max-width: none !important; clear:both;  }
+section:last-of-type { padding-bottom: 100px !important; }*/
+
+/* monte-carlo-motorboats */
+#monte-carlo-motorboats {  }
+#monte-carlo { max-width: none; background: url(../images/beneteau-bg.jpg) no-repeat; background-size: cover; background-position: 0 100% !important; background-color: #E0E7EE; padding-top: 0; padding-bottom: 50px; border-bottom: 1px solid #FFF;}
+
+/* Service */
+/*#wrapservicedifference {width: 100%; min-height: 600px; background-color: #CDDAEE; margin: 0px auto; padding-top: 7%;}	
+
+#wrapservice { padding-top: 60px !important; }
+#wrapservice h2 { display: block; width: 200px; margin: 0 auto; }
+#wrapservice .content-area h2 { color: #fff; }
+#wrapservice .content-area h2:before {background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/anchor-line.png) no-repeat; background-position: top;   }
+#wrapservice .content-area h2:after { content:'';display:block;height:39px; width: auto; background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/white-horizontal-line.png) no-repeat; }
+.content-area h2 a { color: #fff; }
+.service-left { width: 45%; text-align: left; color: #EDF1F5; vertical-align: top; display: inline-block;}
+.service-right { width: 45%; vertical-align: top; margin-top: 10px; margin-left: 4%; display: inline-block; position: relative;}*/
+
+/*#wrapouryard h2 { display: block; width: 250px; margin: 0 auto; }
+#wrapouryard .yard-left { width: 48%; height: 100%; min-height: 500px; text-align: left; vertical-align: top; color: #FFFFFF; margin-right: 2%; margin-bottom: 5%; float: left; display: block !important;  padding: 0 !important; }
+#wrapouryard .yard-left img { width: 100% !important; }
+#wrapouryard .yard-right { width: 48%; text-align: right; vertical-align: top; margin-top: 10px; float: right; display: block !important;}*/
+
+
+/* About */
+#history { width: 100%; height: 100%; }
+#history h2:first-of-type { display: block; }
+
+
+
+/* Style the panel headings 
+.page .content-area { text-align: center; }
+.page .content-area p { text-align: center; }
+.page .content-area  h1, .page .content-area  h2 { font-weight: 400 !important; letter-spacing: 6px !important; }
+.page .content-area  h2 { position: relative; font-size: 200%; color: #475560; margin:0; padding:0; display:inline-block;vertical-align:middle;zoom:1;*display:inline; text-align: center; border: none;}
+.page .content-area  h2:before {content:'';display:block;height:39px;width:100%;background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/anchor-line-dark.png) no-repeat; background-position: top; position:relative;top:-0; margin-bottom:0 }
+.page .content-area  h2:after { content:'';display:block;height:39px; width: auto; background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/dark-horizontal-line.png) no-repeat; background-position: top; position:relative;bottom:0; margin-top: 0; }
+.page .content-area  h2 + h3, .content-area  h2 + h3 a { color:#475560; width: auto; border: none;display:inline-block;vertical-align:middle;zoom:1;*display:inline;  }
+.page .content-area  h2 a { color: #475560; }*/
+
+/*.page  .content-area:first-child { width: 700px; margin: 0 auto; }*/
+/*.page  .content-area:first-child img { width: 150px; }*/
+#bp-left { float: none; clear:both; display: block; text-align:center; width: 100%; }
+#bp-right { float: none; clear: both; display: block; text-align: center; width: 100%; }
+#bp-right img { display: none; }
+
+/* Beneteau Power */
+#beneteau-power { width: 100%; max-width: none; background: url(../images/beneteau-bg.jpg) no-repeat; background-size: cover; background-position: 0 100% !important; background-color: #E0E7EE; }
+
+/* white h2s */
+/*
+.content-area * h2 { color: #fff; }
+.content-area * h2:before {background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/anchor-line.png) no-repeat; background-position: top;   }
+.content-area * h2:after { content:'';display:block;height:39px; width: auto; background:url(http://comp.capeyachts.net/wp-content/themes/cape-yachts-custom/images-new/white-horizontal-line.png) no-repeat; }
+.content-area * h2 a { color: #fff; }
+*/
+
+.main-model-links { width: 200px !important; margin-top: 10px; margin-right: 20px; margin-left: 20px; margin-bottom: 0px; display: inline-block; }
+.main-model-links img { width: 100% !important; height: auto !important; border:#7b92a2 solid 1px; padding:4px; }	
+.main-model-links a { font-family: "Droid Serif", serif; font-size: 90%; color: #475560;letter-spacing: 1px; }
+.main-model-links a:hover { text-decoration: none; color: #006699; } 
+
+/* model links all panels */
+.model-links { width: 40% !important; margin-top: 0; margin-right: 20px; margin-left: 20px; margin-bottom: 0px; display: inline-block; }
+.model-links img { width: 100% !important; height: auto !important; max-height: none; border:#7b92a2 solid 1px; padding:4px; }	
+.model-links a { font-family: "Droid Serif", serif; font-size: 90%; color: #475560;letter-spacing: 1px; }
+
+.video-container { margin-top: 7%; padding: 5px; box-sizing: border-box; border: 1px solid #CCCCCC; }
+
+.video-container { float: none; clear: both;  width: 100% !important;  position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0; }
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+	
+
+/* center text on the power and sail pages */
+/*.page .content-area p { text-align: center; }*/
+
+/* left align on service and about */
+/* about 
+#history .content-area p { text-align: left; }
+#customer-references .content-area p { text-align: left; }
+#our-brokers .content-area p { text-align: left; }
+#news .content-area p { text-align: left; }
+#locations .content-area p { text-align: left; }
+#careers .content-area p { text-align: left; }*/
+
+/* service */
+#wrapservicedifference .content-area p { text-align: left; }
+#wrapservice .content-area p { text-align: left; }
+#wrapouryard .content-area p { text-align: left; }
+#wrapmeetourstaff .content-area p { text-align: left; }
+
+
+@media screen and (max-width: 1100px) {
+
+	#navbox { display: none; }
+
+}
+
+@media screen and (max-width: 900px) {
+
+	.nav-menu li a { height: auto; font-size: 11px; padding: 18px 6px;margin: 0 !important; }
+	.nav-menu li:nth-child(5) .sub-menu, .nav-menu li:last-child .sub-menu { left: auto; right: 0; }
+
+}
+
+@media screen and (max-width: 767px) {
+	.content-area { width: 90% !important; }
+	p { font-size: 14px !important; }
+	
+	/* home */
+	.overview-text { width: 90% !important; color: #FFFFFF; text-align: center; margin: 0px auto; }
+	.overview-text h3 { font-style: italic; font-weight: normal; color: #D4DCE5; text-transform: none; padding-bottom: 5px; }
+	.overview-text hr { width: 100% !important; height: 0; margin-bottom: 25px; }
+	.overview-logo { text-align: center; margin: 0px auto; padding-top: 100px; padding-bottom: 15px; width: 400px !important;}
+	.overview-logo img { width: 100% !important; height: auto !important; }
+	
+	/* nav */
+	.box-shadow-menu {padding-left:0; margin:0; position: absolute; right: 10px; top: 10px; width: 30px; height:30px; border: #7b92a2 solid 1px;}
+	.box-shadow-menu .menu-toggle { float: right; right: auto; font: normal 100% "Droid Serif", serif; margin: 0; padding: 0; cursor: pointer; display: block; position: relative;font-size: 0;  width: 30px; height: 30px; background-color: transparent;  }
+	.box-shadow-menu:before { width: 1em; height: 2px; top: 9px; right: 6px; content: ""; background-color: #7b92a2; box-shadow: 0 0.25em 0 0 #7b92a2, 0 0.5em 0 0 #7b92a2; position: absolute; border-radius: 3px;}
+	.menu-toggle:after { font-size: 0; padding-left: 8px; vertical-align: -3px; }	
+	.toggled-on .menu-toggle:after { vertical-align: 3px; }
+	
+	.toggled-on .menu-menu-1-container { background-color: #fff; margin-top: 0; width: 100%; border-top: #7b92a2 solid 1px; box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.7); }
+	
+	.toggled-on .nav-menu,
+	.toggled-on .nav-menu > ul {display: block;margin-left: 0;padding: 0;width: 100%;}
+	.toggled-on .nav-menu li { text-align: center; border-bottom: #eeeeee solid 1px; }
+	
+	.toggled-on li,
+	.toggled-on .children {display: block;}
+	
+	.toggled-on .nav-menu li > ul
+			{background-color: transparent; display: block; float: none;  margin-left: 20px; position: relative; left: auto; top: auto;}
+	
+	.toggled-on .nav-menu li > ul a {color: #7b92a2; width: auto;}
+	
+	.toggled-on .nav-menu li:hover > a,
+	.toggled-on .nav-menu .children a
+			{background-color: #7b92a2; color: #ffffff;}
+	
+	.toggled-on .nav-menu li a { font-size: 12px; padding-top: 12px; padding-bottom: 12px; }
+	
+	.toggled-on .nav-menu li a:hover,
+	.toggled-on .nav-menu ul a:hover
+			{background-color: #7b92a2; color: #ffffff !important;}
+			
+	.toggled-on .nav-menu li .sub-menu { display: none; margin: 0; background-color: #dbeef7; padding:0; }	
+	.toggled-on .nav-menu li .sub-menu li, .toggled-on .nav-menu li .sub-menu li a { color: #7b92a2; text-align: center !important; border-bottom: #fff solid 1px; }		
+	.toggled-on .nav-menu li:hover > .sub-menu { width: 100%; height: auto; text-align: center; display: block; z-index: 1;}
+	
+	.toggled-on .nav-menu li a:after { content:''; display: none; }
+
+}
+
+
+@media screen and (max-width: 500px) {
+	.content-area { width: 80% !important; }
+	.header-logo { width: auto !important; height: 100% !important; max-width: 123px; margin: 0 auto 0 7px; padding-top: 10px; box-sizing: border-box; vertical-align: middle; display: inline-block; border: 0 solid red;}
+	
+	/* home */
+	.overview-logo { text-align: center; margin: 0px auto; padding-top: 50px; padding-bottom: 15px; width: 300px !important;}
+	
+	.content-area hr { width: 100% !important; }
+	.content-area p + h2 { font-size: 140%; margin-top: -10px; }
+	
+	/* model pages */
+	section:first-of-type { padding-top: 70px !important; }
+	section { max-width: none !important; clear:both; overflow: hidden; padding-top: 30px !important; }
+	.page .content-area h2 { position: relative; font-size: 140%; color: #475560; margin:0; padding:0; letter-spacing:4px;}
+	.page .content-area h2:before {content:'';display:block;height:39px;width:100%;top:-0; margin-bottom:0 }
+	.page .content-area h2:after { content:'';display:block;height:39px; width: auto;bottom:0; margin-top: -4px; }
+	.model-links { width: 100% !important; margin-top: 0; margin-right: 20px; margin-left: 0; margin-bottom: 0px; display: inline-block; }
+	
+	/* about */
+	.about-history-left, .history-right { float: none; clear:both; width: 100%; display: block; }
+}
+
